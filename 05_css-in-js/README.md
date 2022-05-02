@@ -9,7 +9,7 @@
 
 **CSS-in-JS**는 단어 그대로 JavaScript코드에서 CSS를 작성하는 방식을 말합니다.. 2014년 페이스북 개발자인 Christopher Chedeau aka Vjeux가 처음 소개하였습니다. 기존 CSS관리의 어려움을 해결한 Facebook의 사례를 소개하고 있고 이 발표 이후 개념이 발전하면서 많은 라이브러리가 등장했습니다. 또한 최근 컴포넌트 기반 스타일링이 대중화되면서 CSS-in-JS의 사용이 증가했습니다.
 
-![Untitled](./Untitled.png>)
+![Untitled](./Untitled.png)
 
 여러분들은 css-in-js의 어떤 점이 마음에 들어서 사용하고 계신가요? 장점으로는
 
@@ -34,7 +34,7 @@
 
 \***\*runtime css-in-js의 style inject방식\*\***
 
-![Untitled](./Untitled1.png>)
+![Untitled](./Untitled1.png)
 
 컴포넌트에서 runtime에 스타일을 수정한다면 그때마다 css를 parsing하는 시간이 필요하고, 이 시간만큼 렌더링이 blocking 됩니다. 브라우저는 아래와 같이 동작하는데,
 
@@ -65,7 +65,7 @@ develop mode일 때는 DOM 수정방식입니다. (tag.appendChild(document.crea
 
 CSS 변수를 사용한 방식이다보니까 브라우저 호환성에서 문제가 있다 < 이건가? ㅋㅋㅋㅋㅋㅋㅋ
 
-![Untitled](./Untitled2.png>)
+![Untitled](./Untitled2.png)
 
 ## Zero-runtime
 
